@@ -1,0 +1,94 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 16px 25px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    color: #007bff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    font-size: 60px;
+    color: #333;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    padding: 15px 40px;
+    margin: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+#increment-btn {
+    background-color: #28a745;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+#increment-btn:hover {
+    background-color: #218838;
+    transform: scale(1.05); /* Slight grow on hover */
+}
+
+#save-btn {
+    background-color: #ffc107;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+#save-btn:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 25px;
+}
+
+#save-el {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+    font-size: 15px;
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+#save-el:hover {
+    background-color: #f1f3f5;
+}
